@@ -2,23 +2,22 @@ name: chuanssu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 0/6 * * *'
-
-jobs:  # 4157
+    - cron: '26 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chuanssu
         env:
-          m7813: ${{ secrets.m7813 }}
+          thbcs886: ${{ secrets.thbcs886 }}
         run: |
-          echo $m7813 | jq -r .e1 | /bin/bash
-          echo $bziy5831 | jq -r .lmkbf5 | /bin/bash
-          echo $kw3769 | jq -r .sp13 | /bin/bash
-          echo $rzdzk0 | jq -r .buzhi2856 | /bin/bash
-          echo $gjmjp92 | jq -r .ihz9407 | /bin/bash
-          echo $bnwr65180 | jq -r .hbrz618 | /bin/bash
-          echo $zj8475 | jq -r .sjgrc64317 | /bin/bash
-          echo $vq6 | jq -r .mol6023 | /bin/bash
+          echo $thbcs886 | jq -r .btjd847 | /bin/bash
+          echo $xpcpe538 | jq -r .ofca920 | /bin/bash
+          echo $l795 | jq -r .rrqm2 | /bin/bash
+          echo $w46 | jq -r .uyqkd83281 | /bin/bash
+          echo $hlzsc88849 | jq -r .a2399 | /bin/bash
+          echo $fe18 | jq -r .gge05 | /bin/bash
+          echo $pfnt1120 | jq -r .gmhwd4 | /bin/bash
 
